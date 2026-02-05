@@ -1,0 +1,13 @@
+
+package Lec11Encapsulation.Restriction;
+
+
+public class Processor {
+     static int number = 40; // non static
+
+    public static void main(String args[]) {
+        System.out.println(number);
+    }
+}
+    
+
