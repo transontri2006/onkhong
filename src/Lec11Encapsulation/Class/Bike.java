@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Lec11Encapsulation.Class;
 
-/**
- *
- * @author Macbook
- */
+
 public class Bike {
-    
+    final int speedlimit=90;//final variable
+
+    void run() {
+        speedlimit=400;
+    }
+    public static void main(String args[]) {
+        Bike obj=new Bike();
+        obj.run();
+    }
 }
+    
+
+
