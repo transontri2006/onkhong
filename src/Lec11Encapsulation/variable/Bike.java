@@ -2,9 +2,9 @@
 package Lec11Encapsulation.variable;
 
 
-public class Bike {
-    final void run() {
-        System.out.println("running");
+final class Bike {
+     void run() {
+        System.out.println("running safely with 100kmph");
     }
 }
 
@@ -15,3 +15,4 @@ class Honda extends Bike {
     }
 }
     
+
